@@ -1,4 +1,5 @@
 class Student < User
+  attr_accessor :knowledge
 
  
  def initializer(first_name, last_name, knowledge)
